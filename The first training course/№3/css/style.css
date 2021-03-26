@@ -1,0 +1,49 @@
+body {
+	background-color: #FFFAFA;
+	font-family: 'Poppins', sans-serif;
+	padding: 100px 0;
+}
+h2 {
+	padding: 30px;
+	text-align: center;
+	color: #808000;
+}
+
+.header {
+	height: 100px;
+	width: 800px;
+	margin: 0 auto;
+	/*vertical centering*/
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	
+	font-size: 50px;
+	color: #8B4513;
+	box-shadow: 0 5px 10px #ccc;
+	border-radius: 5px;
+	background: #FFE4C4;
+	}
+	
+.window {
+	background-image: url("../img/window.png");
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+	}
+	
+.horizontal-lines {
+	/*I didn't use any "repeat" because the block and image height are the same*/
+	background-image: url("../img/lines1.png");
+	height: 400px;
+	width: 300px;
+	margin: 0 auto;
+	}
+	
+.vertical-lines {
+	background-image: url("../img/lines2.png");
+	height: 350px;
+	width: 350px;
+	margin: 0 auto;
+	}
+	

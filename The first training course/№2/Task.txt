@@ -1,0 +1,5 @@
+Multiple pages with links.
+Using paragraphs, headings, lists, and tables.
+Use semantic tags.
+Add styles
+Make a page in github pages.

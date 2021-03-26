@@ -1,0 +1,3 @@
+Create html file with headings, paragraphs, tables, and images. 
+Images must be local and in the form of links.
+Use HTML Semantic Elements
