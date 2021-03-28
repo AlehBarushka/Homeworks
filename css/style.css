@@ -1,0 +1,56 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card {
+  background-color: #c2ca9f52;
+  width: 600px;
+  padding: 20px;
+  margin: 100px auto;
+  box-shadow: 2px 4px 15px #0000007d;
+  border-radius: 20px;
+}
+
+.card-photo {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color: #71713b;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #aa9139;
+}
+
+span {
+  font-weight: bold;
+  color: #a28107;
+}
+
+.card__subtitle-list {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #247f94;
+}
+.card-list {
+  margin-top: 5px;
+  font-size: 16px;
+}
