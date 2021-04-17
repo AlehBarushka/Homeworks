@@ -2,3 +2,12 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #cdc6ab;
 }
+.header {
+  background-color: #bed65252;
+  width: 1000px;
+  padding: 20px;
+  margin: 50px auto;
+  border-width: 2px;
+  border-color: #dbe875a3;
+  border-style: outset;
+}
