@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightblue;
+  height: 400px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: no-wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+}
