@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LayoutDisign.by</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="logo" onclick="slowScroll('.top')">
+        <span>LayoutDisign</span>
+      </div>
+      <div class="about">
+        <a href="#" title="Наши услуги" onclick="slowScroll('.main')"
+          >Наши услуги</a
+        >
+        <a href="#" onclick="slowScroll('.overview')" title="Преимущества"
+          >Преимущества</a
+        >
+        <a href="#" onclick="slowScroll('.contacts')" title="Контакты"
+          >Обратная связь</a
+        >
+        <a href="#" onclick="slowScroll('.faq')" title="Ответы на вопросы"
+          >FAQ</a
+        >
+      </div>
+    </header>
+
+    <div class="top">
+      <h1>Разработка сайтов</h1>
+      <h3>под ключ!</h3>
+    </div>
+
+    <div class="main">
+      <div class="main__container_stages">
+        <div class="row-column">
+          <img src="img/design.webp" alt="" />
+          <h3>ДИЗАЙН САЙТА</h3>
+          <p>
+            <strong>Отрисовка дизайна сайта</strong><br />(дизайн отрисовывается
+            согласно пожеланиямзаказчика - следуя современным тенденциям и
+            правилам веб-дизайна)
+          </p>
+          <span></span>
+        </div>
+        <div class="row-column">
+          <img src="img/layout.webp" alt="" />
+          <h3>ВЕРСТКА</h3>
+          <p>
+            <strong>Адаптивная верстка</strong><br />(сайт будет адаптироваться
+            под все устройства от смартфона до ПК)
+          </p>
+        </div>
+        <div class="row-column">
+          <img src="img/programming.webp" alt="" />
+          <h3>ПРОГРАММИРОВАНИЕ</h3>
+          <p>
+            <strong>Программирование</strong><br />(технический процесс, который
+            связывает веб-графику и функциональную составляющую ресурса,
+            соединяет уже разработанный дизайна сайта с его html-версткой, и
+            т.д.)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="overview">
+      <h2>Преимущества</h2>
+      <h4>с нами все проще</h4>
+      <div class="img">
+        <img src="img/work-1.webp" alt="" />
+        <span
+          >С вами работает один специалист, который управляет процессом
+          разработки и отвечает за соблюдением сроков каждого этапа.</span
+        >
+      </div>
+      <div class="img">
+        <img src="img/work-2.webp" alt="" />
+        <span
+          >Используются современные технологии разработки, которые прошли
+          успешные испытания на десятках веб-проектов разной сложности</span
+        >
+      </div>
+    </div>
+
+    <div class="contacts">
+      <center><h5>Обратная связь</h5></center>
+      <form class="form_input">
+        <label for="name">Имя <span>*</span></label
+        ><br />
+        <input
+          type="text"
+          placeholder="Введите имя"
+          name="name"
+          id="name"
+        /><br />
+        <label for="email">Ваша почта <span>*</span></label
+        ><br />
+        <input
+          type="email"
+          placeholder="Введите email"
+          name="email"
+          id="email"
+        /><br />
+        <label for="message">Сообщение <span>*</span></label
+        ><br />
+        <textarea
+          placeholder="Введите ваше сообщение"
+          name="message"
+          id="message"
+        ></textarea
+        ><br />
+
+        <input class="btn" type="submit" value="Отправить" />
+      </form>
+    </div>
+
+    <div class="faq">
+      <div>
+        <span class="title">Информация</span><br />
+        <span class="heading">О разработке сайта:</span>
+        <p>
+          Сайт по сути своей не является элементарным набором текстовой и
+          визуальной информации. В первую очередь он должен быть достаточно
+          действенным для того, чтобы приносить прибыль его владельцу. Создание
+          сайта - это не расходы, а выгодное вложение средств. Существует
+          множество видов страниц, которые могут использоваться для различных
+          целей. В данном случае упор ведётся на изготовление сайтов для малого
+          и среднего бизнеса, т.е. сайтов фирм, на которых присутствует
+          информация о конторе, о её товарах и услугах, а также необходимые
+          контактные данные. В первую очередь, такой сайт рассчитан на клиентов
+          фирмы, которым предоставляется возможность изучить необходимую
+          информацию о компании. Заказав сайт под ключ, вы получите прежде всего
+          грамотную классификацию всех имеющихся данных, а также предложений и
+          товаров. Веб-сайт будет представлять вашу компанию в сети.
+          Следовательно, от того как он изготовлен, во многом зависит отношение
+          потенциальных клиентов к вашей фирме. Заказать сайт теоретически может
+          любой и при этом достаточно недорого.
+        </p>
+      </div>
+
+      <div>
+        <span class="title">Описания услуги</span><br />
+        <span class="heading">Что входит в услуги сервиса:</span>
+        <p>
+          Проектирование cайта совместно с клиентом, создание дизайна сайта на
+          базе как фирменного стиля, так и товарного знака; разработка программ,
+          служащих для реализации различного функционала на сайте; наполнение
+          стартовой информацией, предоставленой заказчиком. Регистрация домена и
+          хостинга у хостинговой фирмы, перенесение web-сайта на хостинг в web;
+          настройка контекстной рекламы
+        </p>
+      </div>
+      <div>
+        <span class="title">Гарантии</span><br />
+        <span class="heading">Какие гарантии есть:</span>
+
+        <ul>
+          <li>
+            - оперативное устранение технических неполадок в работе сайте —
+            просто по вашему звонку, имейлу или сообщению в Skype или Viber, без
+            лишних сложностей;
+          </li>
+          <li>- круглосуточный мониторинг доступности сайта;</li>
+          <li>
+            - бесплатные доработки сайта в рамках технического задания на сайт;
+          </li>
+          <li>
+            - ежедневное резервное копирование сайта с возможностью восстановить
+            его к состоянию за любой из предыдущих 7 дней.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      function slowScroll(id) {
+        $("html, body").animate(
+          {
+            scrollTop: $(id).offset().top,
+          },
+          500
+        );
+      }
+
+      $(document).on("scroll", function () {
+        if ($(window).scrollTop() === 0) $("header").removeClass("fixed");
+        else $("header").attr("class", "fixed");
+      });
+    </script>
+  </body>
+</html>
